@@ -1,0 +1,8 @@
+#ignoramos esta carpeta
+.vs/
+
+#ignorar Migracion
+Migrations/
+
+#Eliminamos configuracion app
+appsettings.json

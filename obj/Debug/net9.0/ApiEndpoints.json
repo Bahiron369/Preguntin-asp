@@ -1,0 +1,313 @@
+[
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Login.LoginController",
+    "Method": "Login",
+    "RelativePath": "Account/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginModel",
+        "Type": "Preguntin_ASP.NET.Models.DTO.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Admin.RolesController",
+    "Method": "GetRolesAsync",
+    "RelativePath": "Admin/Roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Admin.RolesController",
+    "Method": "AddRole",
+    "RelativePath": "Admin/Roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roles",
+        "Type": "Preguntin_ASP.NET.Models.DTO.Roles",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Admin.RolesController",
+    "Method": "DeleteRole",
+    "RelativePath": "Admin/Roles",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roles",
+        "Type": "Preguntin_ASP.NET.Models.DTO.Roles",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Admin.RolesController",
+    "Method": "UpdateRole",
+    "RelativePath": "Admin/Roles",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roles",
+        "Type": "Preguntin_ASP.NET.Models.DTO.Roles",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Admin.UsersController",
+    "Method": "GetAllUsersAsync",
+    "RelativePath": "Admin/Users/AllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Admin.UsersController",
+    "Method": "DelectUserAsync",
+    "RelativePath": "Admin/Users/DeleteUser/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Admin.UsersController",
+    "Method": "UpdateRoleUserAsync",
+    "RelativePath": "Admin/Users/UpdateRoleUser/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "roles",
+        "Type": "System.String[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Juego.PreguntasController",
+    "Method": "DeleteAllQuestion",
+    "RelativePath": "Game/Admin/Preguntas/{idCategoria}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Juego.PreguntasController",
+    "Method": "setPreguntas",
+    "RelativePath": "Game/Admin/Preguntas/{nombreCategoria}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "preguntas",
+        "Type": "System.Collections.Generic.List\u00601[[Preguntin_ASP.NET.Models.DTO.PreguntasResponse, Preguntin ASP.NET, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreCategoria",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Juego.PreguntasController",
+    "Method": "getAllQuestion",
+    "RelativePath": "Game/Admin/Preguntas/category/{idCategoria}/{nombre}/preguntas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Juego.PreguntasController",
+    "Method": "DeleteCategory",
+    "RelativePath": "Game/Admin/Preguntas/delete/category/{idCategoria}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Juego.PreguntasController",
+    "Method": "DeleteQuestion",
+    "RelativePath": "Game/Admin/Preguntas/delete/pregunta/{idPregunta}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPregunta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Juego.GameController",
+    "Method": "GetPreguntas",
+    "RelativePath": "Game/Player/categoria/{nombreCategoria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreCategoria",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Juego.GameController",
+    "Method": "GetAllCategoriasAsync",
+    "RelativePath": "Game/Player/Categorias/{idJugador}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idJugador",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Juego.GameController",
+    "Method": "SetPuntosCategoria",
+    "RelativePath": "Game/Player/PuntosCategoria/{idJugador}/{idCategoria}/{puntos}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idJugador",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "puntos",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Juego.GameController",
+    "Method": "GetPuntosGolbalCategoriaAsync",
+    "RelativePath": "Game/Player/PuntosGlobalcategoria/top/{categoria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Juego.GameController",
+    "Method": "SetPuntosJugador",
+    "RelativePath": "Game/Player/puntosJugador",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jugadorPuntos",
+        "Type": "Preguntin_ASP.NET.Models.DTO.PuntosJugador",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Preguntin_ASP.NET.Controllers.Jugador.JugadorController",
+    "Method": "Index",
+    "RelativePath": "inf",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
